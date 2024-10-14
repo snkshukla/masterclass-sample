@@ -1,0 +1,29 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - DB_USER=masterclass
+      - DB_PASSWORD=masterclass100
+      - DB_NAME=sampledb
+      - DB_HOST=postgres  # Service name for PostgreSQL
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16.0-bullseye  # Use PostgreSQL version 16
+    environment:
+      POSTGRES_USER: masterclass
+      POSTGRES_PASSWORD: masterclass100
+      POSTGRES_DB: sampledb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

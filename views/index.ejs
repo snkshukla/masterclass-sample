@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy App</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to Scaler's Masterclass</h1>
+        <div class="item-list">
+            <h2 class="subtitle">Today's topics</h2>
+            <ul>
+                <% if (items.length > 0) { %>
+                    <% items.forEach(item => { %>
+                        <li><%= item.name %></li>
+                    <% }); %>
+                <% } else { %>
+                    <p>No topics available yet. Add one below!</p>
+                <% } %>
+            </ul>
+        </div>
+        <div class="form-container">
+            <form action="/add" method="POST">
+                <input type="text" name="name" placeholder="Add new topic" required>
+                <button type="submit" class="submit-btn">Add</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

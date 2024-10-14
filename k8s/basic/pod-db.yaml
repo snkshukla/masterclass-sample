@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: db
+  namespace: default
+  labels:
+    app: db
+spec:
+  containers:
+  - name: postgresql
+    image: postgres:16.0-bullseye
+    ports:
+    - containerPort: 5432
+    env:
+    - name: POSTGRES_PASSWORD
+      value: masterclass100
+    - name: POSTGRES_USER
+      value: masterclass
+    - name: POSTGRES_DB
+      value: sampledb

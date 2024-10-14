@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+  namespace: default
+  labels:
+    app: web
+spec:
+  containers:
+  - name: sample-app
+    image: snkshukla/sample_app:1.0.0
+    ports:
+    - containerPort: 3000
+    env:
+    - name: DB_USER
+      value: masterclass
+    - name: DB_PASSWORD
+      value: masterclass100
+    - name: DB_NAME
+      value: sampledb
+    - name: DB_HOST
+      value: db  # Service name for PostgreSQL
