@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: sample-app
-    image: snkshukla/sample_app:1.0.0
+    image: snkshukla/sample_app:19033dd
     ports:
     - containerPort: 3000
     env:
