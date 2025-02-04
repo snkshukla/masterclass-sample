@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/audacioustux/devcontainers/k9s:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
