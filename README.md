@@ -1,18 +1,23 @@
-# Docker & Kubernetes Masterclass Sample Repository
+# Masterclass Sample Application: Docker, Kubernetes, and Microservices
 
-Welcome to the **Masterclass Sample Repository** – a Node.js application built to demonstrate Docker, Docker Compose, and Kubernetes concepts. This repository is part of our masterclass at Scaler, showing how to containerise and orchestrate applications effectively.
+[![GitHub stars](https://img.shields.io/github/stars/snkshukla/masterclass-sample.svg?style=social)](https://github.com/snkshukla/masterclass-sample/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/snkshukla/masterclass-sample.svg?style=social)](https://github.com/snkshukla/masterclass-sample/network/members)
+[![License](https://img.shields.io/github/license/snkshukla/masterclass-sample)](LICENSE)  
+
+Welcome to the **Masterclass Sample Repository** - This repository contains the sample application and configuration files used in the Docker, Kubernetes, and Microservices masterclass at **Scaler**.  It's designed to be a practical, hands-on resource that you can use to follow along with the class and explore the concepts in more detail.  It provides a real-world example of how to containerize, deploy, and orchestrate a simple Node.js application with a database.
 
 ## Table of Contents
 
-1. [Overview]()
-2. [Repository Structure]()
-3. [Getting Started]()
-    - [Prerequisites]()
+1. [Overview](#Overview)
+2. [Repository Structure](#repository-structure)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#Prerequisites)
     - [Running Locally with Docker Compose]()
     - [Deploying on Kubernetes]()
 4. [Learn More]()
-5. [Contributing]()
-6. [License]()
+5. [Blog Series (Deep Dive)](#blog-series-deep-dive)
+6. [Contributing]()
+7. [License]()
 
 ---
 
@@ -140,11 +145,30 @@ You’ll need the following installed on your machine:
 
 To supplement what we’ve done here, I’ve created a **series of blog posts** that walk you through each concept at a deeper level—from explaining Docker’s layered architecture to Kubernetes best practices in production. Check it out here:
 
-[Our Tech Blogs - Up And Running With Docker & Kubernetes](https://www.getdevops.services)
+[Our Tech Blogs - Up And Running With Docker & Kubernetes](https://www.getdevops.services/docker/)
 
 These blogs serve as a companion guide, providing extended explanations, troubleshooting tips, and real-world usage patterns.
 
 ---
+
+## Blog Series (Deep Dive)
+
+For a comprehensive, step-by-step explanation of all the concepts covered in this repository, and the masterclass, visit our blog:
+
+[**The DevOps Blog**](https://getdevops.services)
+
+The blog series will cover:
+
+1.  **[Docker 101: Why Containers Matter - Live](https://getdevops.services/posts/docker/docker-101-why-containers-matter/)**
+2.  **Building Your First Docker Image (Dockerfile Deep Dive)**
+3.  **Local Development with Docker Compose**
+4.  **Introduction to Kubernetes: Concepts and Architecture**
+5.  **Deploying to Kubernetes: Basic Configuration**
+6.  **Advanced Kubernetes: Ingress, ConfigMaps, Secrets, and Scaling**
+7.  **Microservices Architecture and Best Practices**
+8.  ...More to follow
+
+Not all these blogs are yet live, but stay tuned as we will target to release atleast one blog every Wednesday.
 
 ## Contributing
 
