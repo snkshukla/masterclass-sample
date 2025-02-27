@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  replicas: 3  # Adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: sample-app
+        image: snkshukla/sample_app:19033dd
+        ports:
+        - containerPort: 3000
+        env:
+        - name: DB_USER
+          value: masterclass
+        - name: DB_PASSWORD
+          value: masterclass100
+        - name: DB_NAME
+          value: sampledb
+        - name: DB_HOST
+          value: db  # Service name for PostgreSQL

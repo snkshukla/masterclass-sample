@@ -15,7 +15,7 @@ services:
       - postgres
 
   postgres:
-    image: postgres:16.0-bullseye  # Use PostgreSQL version 16
+    image: postgres:16.0-bullseye  # Use PostgreSQL version 13
     environment:
       POSTGRES_USER: masterclass
       POSTGRES_PASSWORD: masterclass100
