@@ -155,16 +155,16 @@ These blogs serve as a companion guide, providing extended explanations, trouble
 
 For a comprehensive, step-by-step explanation of all the concepts covered in this repository, and the masterclass, visit our blog:
 
-[**The DevOps Blog**](https://getdevops.services)
+[**The DevOps Blog**](https://tech.hindizubaan.com/learn)
 
 The blog series will cover:
 
-1.  **[Docker 101: Why Containers Matter - Live](https://getdevops.services/posts/docker/docker-101-why-containers-matter/)**
-2.  **Building Your First Docker Image (Dockerfile Deep Dive)**
-3.  **Local Development with Docker Compose**
-4.  **Introduction to Kubernetes: Concepts and Architecture**
-5.  **Deploying to Kubernetes: Basic Configuration**
-6.  **Advanced Kubernetes: Ingress, ConfigMaps, Secrets, and Scaling**
+1.  **[Docker 101: Why Containers Matter - Live](https://tech.hindizubaan.com/learn/docker-101-why-containers-matter)**
+2.  **[Introduction to DevOps: Culture, Practices, and Tools](https://tech.hindizubaan.com/learn/introduction-to-devops)**
+2.  **Building Your First Docker Image (Dockerfile Deep Dive)** - Yet to be published
+3.  **Local Development with Docker Compose** - Yet to be published
+4.  **[Introduction to Kubernetes: Concepts and Architecture](https://tech.hindizubaan.com/learn/getting-started-with-kubernetes)**
+5.  **Advanced Kubernetes: Ingress, ConfigMaps, Secrets, and Scaling**
 7.  **Microservices Architecture and Best Practices**
 8.  ...More to follow
 
